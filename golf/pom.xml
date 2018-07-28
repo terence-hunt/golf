@@ -33,26 +33,14 @@
     	<scope>provided</scope>
     </dependency>
   </dependencies>
+  
+    <build>
+    <sourceDirectory>${project.build.directory}/golf/src/main/java</sourceDirectory>
+    <scriptSourceDirectory>${project.build.directory}/golf/src/main/scripts</scriptSourceDirectory>
+    <testSourceDirectory>${project.build.directory}/golf/src/test/java</testSourceDirectory>
+    <outputDirectory>${project.build.directory}/goofball1</outputDirectory>
+    <testOutputDirectory>/home/thunt/workspace/golf/target/test-classes</testOutputDirectory>
 
-  <build>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <build>
-    <sourceDirectory>${project.build.directory}/golf/src/main/java</sourceDirectory>
-    <scriptSourceDirectory>${project.build.directory}/golf/src/main/scripts</scriptSourceDirectory>
-    <testSourceDirectory>${project.build.directory}/golf/src/test/java</testSourceDirectory>
-    <outputDirectory>${project.build.directory}/goofball</outputDirectory>
-    <testOutputDirectory>/home/thunt/workspace/golf/target/test-classes</testOutputDirectory>
-=======
->>>>>>> refs/remotes/origin/develop
-=======
-    <build>
-    <sourceDirectory>${project.build.directory}/golf/src/main/java</sourceDirectory>
-    <scriptSourceDirectory>${project.build.directory}/golf/src/main/scripts</scriptSourceDirectory>
-    <testSourceDirectory>${project.build.directory}/golf/src/test/java</testSourceDirectory>
-    <outputDirectory>${project.build.directory}/goofball</outputDirectory>
-    <testOutputDirectory>/home/thunt/workspace/golf/target/test-classes</testOutputDirectory>
->>>>>>> refs/remotes/origin/master
     <finalName>golf</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
